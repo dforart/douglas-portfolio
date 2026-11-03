@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/end-to-end-decentralized-dashboard",
+      "destination": "/beasy/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-agent-optimization",
+      "destination": "/charley/",
+      "permanent": true
+    },
+    {
+      "source": "/new-online-booking-tool",
+      "destination": "/groundworks/",
+      "permanent": true
+    }
+  ]
+}
